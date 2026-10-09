@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Helth App</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.css"
+            integrity="sha512-M4qQR++iWOnyJc9Q74JiPlblcNCv7Qc88YNfwSWLjqeSH4D+rCG7nbbeTqAI42pofdw0YwKXf8I+xnKBFlBafA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="CSS/pluging.css" />
+        <link rel="stylesheet" href="style.css" />
+        <script defer src="app.js"></script>
+    </head>
+    <body>
+        <div id="tracking_area" class="">
+            <div class="inner_tracking title">
+                <h2 class="health">How are you feeling</h2>
+            </div>
+            <div class="inner_tracking main">
+                <div class="child_tracking">
+                    <i class="fas fa-heartbeat"></i>
+                    <h5>Heart Rate</h5>
+                    <p><span class="counter" data_target="75">0</span>bpm</p>
+                </div>
+                <div class="child_tracking">
+                    <i class="fas fa-moon"></i>
+                    <h5>Sleep</h5>
+                    <p><span class="counter" data_target="8">0</span>hrs</p>
+                </div>
+                <div class="child_tracking">
+                    <i class="fas fa-cocktail"></i>
+                    <h5>Water</h5>
+                    <p><span class="counter" data_target="10">0 </span>Glass</p>
+                </div>
+                <div class="child_tracking">
+                    <i class="fas fa-walking"></i>
+                    <h5>Steps</h5>
+                    <p><span class="counter" data_target="11000">0</span></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
